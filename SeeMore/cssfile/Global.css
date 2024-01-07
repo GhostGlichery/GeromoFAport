@@ -3,6 +3,38 @@
 }
 
 .desc {
-   
    font-family: calibri;
+}
+
+body {
+   margin: 0px;
+   background: #262626;
+   color: white;
+   font-weight: Arial;
+}
+
+header {
+   background: black;
+   padding: 20px;
+   color: white;
+   text-align: center;
+   font-weight: bold;
+}
+
+nav {
+  padding: 20px;
+  font-size: 15pt;
+  line-height: 2em;
+}
+
+nav li a{
+   color: white;
+   transition: 0.5s ease;
+}
+
+nav li a:hover {
+   color: cyan;
+   padding: 8px;
+   border: 2px solid cyan;
+   border-radius: 10px;
 }
